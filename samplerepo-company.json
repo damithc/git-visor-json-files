@@ -1,0 +1,149 @@
+{
+  "repositoryName": "samplerepo-company",
+  "repositoryPath": "/Users/damithch/Repos/git-mastery/samplerepo-company",
+  "exportDate": "2026-04-01T10:55:11.848Z",
+  "totalObjects": 6,
+  "branches": [
+    {
+      "name": "master",
+      "commitHash": "d7ae16e28b9c97e21f08df3947088802f22e41ea",
+      "current": true
+    },
+    {
+      "name": "track-sales",
+      "commitHash": "f1e3d5acee9aae39b3495c3912b82a67b34c525e",
+      "current": false
+    }
+  ],
+  "objects": [
+    {
+      "hash": "117063b1343533bd6d3f24164661483427faddbb",
+      "type": "commit",
+      "size": 263,
+      "references": [
+        "57e5dc42fbbe24d1998c814988801de696fd6ca4",
+        "2bd20213b3a7ac9cdd3972af7215807957b0597b"
+      ],
+      "referencedBy": [],
+      "parent": [
+        "2bd20213b3a7ac9cdd3972af7215807957b0597b"
+      ],
+      "timestamp": 1773770067000,
+      "tree": "57e5dc42fbbe24d1998c814988801de696fd6ca4",
+      "author": "damithc <1673303+damithc@users.noreply.github.com>",
+      "committer": "damithc <1673303+damithc@users.noreply.github.com>",
+      "message": "Add Python.txt",
+      "diff": [
+        {
+          "status": "A",
+          "path": "Python.txt",
+          "hash": "ef6a2d8aecb56799ce481905dfa3046ef42dd111",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "hash": "1a83e0dace7979a6036d5de1db734cc8c83f3352",
+      "type": "blob",
+      "size": 24,
+      "references": [],
+      "referencedBy": [
+        "57e5dc42fbbe24d1998c814988801de696fd6ca4",
+        "b2fc0788f1729de577aaa9c093bf241f0a809e8d"
+      ],
+      "names": [
+        "C.txt"
+      ],
+      "content": "1972, by Dennis Ritchie\n"
+    },
+    {
+      "hash": "2bd20213b3a7ac9cdd3972af7215807957b0597b",
+      "type": "commit",
+      "size": 210,
+      "references": [
+        "b2fc0788f1729de577aaa9c093bf241f0a809e8d"
+      ],
+      "referencedBy": [
+        "117063b1343533bd6d3f24164661483427faddbb"
+      ],
+      "parent": [],
+      "timestamp": 1773769961000,
+      "tree": "b2fc0788f1729de577aaa9c093bf241f0a809e8d",
+      "author": "damithc <1673303+damithc@users.noreply.github.com>",
+      "committer": "damithc <1673303+damithc@users.noreply.github.com>",
+      "message": "Add C.txt",
+      "diff": [
+        {
+          "status": "A",
+          "path": "C.txt",
+          "hash": "1a83e0dace7979a6036d5de1db734cc8c83f3352",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "hash": "57e5dc42fbbe24d1998c814988801de696fd6ca4",
+      "type": "tree",
+      "size": 71,
+      "references": [
+        "1a83e0dace7979a6036d5de1db734cc8c83f3352",
+        "ef6a2d8aecb56799ce481905dfa3046ef42dd111"
+      ],
+      "referencedBy": [
+        "117063b1343533bd6d3f24164661483427faddbb"
+      ],
+      "names": [
+        "gm-languages"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "name": "C.txt",
+          "hash": "1a83e0dace7979a6036d5de1db734cc8c83f3352",
+          "type": "blob"
+        },
+        {
+          "mode": "100644",
+          "name": "Python.txt",
+          "hash": "ef6a2d8aecb56799ce481905dfa3046ef42dd111",
+          "type": "blob"
+        }
+      ]
+    },
+    {
+      "hash": "b2fc0788f1729de577aaa9c093bf241f0a809e8d",
+      "type": "tree",
+      "size": 33,
+      "references": [
+        "1a83e0dace7979a6036d5de1db734cc8c83f3352"
+      ],
+      "referencedBy": [
+        "2bd20213b3a7ac9cdd3972af7215807957b0597b"
+      ],
+      "names": [
+        "gm-languages"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "name": "C.txt",
+          "hash": "1a83e0dace7979a6036d5de1db734cc8c83f3352",
+          "type": "blob"
+        }
+      ]
+    },
+    {
+      "hash": "ef6a2d8aecb56799ce481905dfa3046ef42dd111",
+      "type": "blob",
+      "size": 26,
+      "references": [],
+      "referencedBy": [
+        "57e5dc42fbbe24d1998c814988801de696fd6ca4"
+      ],
+      "names": [
+        "Python.txt"
+      ],
+      "content": "1991, by Guido van Rossum\n"
+    }
+  ]
+}

@@ -1,296 +1,310 @@
 {
-  "repositoryName": "samplerepo-company",
-  "repositoryPath": "/Users/damithch/Repos/git-mastery/samplerepo-company",
-  "exportDate": "2026-04-07T07:04:14.180Z",
-  "totalObjects": 12,
+  "repositoryName": "things",
+  "repositoryPath": "/Users/damithch/Temp/Sandbox/git-mastery-home/gitmastery-exercises/hp-view-commits/things",
+  "exportDate": "2026-04-11T18:50:36.318Z",
+  "totalObjects": 13,
   "branches": [
     {
-      "name": "master",
-      "commitHash": "d7ae16e28b9c97e21f08df3947088802f22e41ea",
+      "name": "main",
+      "commitHash": "82656791093b5e3039bdcf4bf100b9eb4b0788b0",
       "current": true
-    },
-    {
-      "name": "track-sales",
-      "commitHash": "f1e3d5acee9aae39b3495c3912b82a67b34c525e",
-      "current": false
     }
   ],
   "objects": [
     {
-      "hash": "946b23358cfa60bc9b3fe66e4cc3d271c69bab26",
-      "type": "blob",
-      "size": 33,
-      "references": [],
-      "referencedBy": [
-        "db13cba3814c1b6a149b752ef8af1d1a2ede458c"
-      ],
-      "names": [
-        "employees.txt"
-      ],
-      "content": "Employees\nManager: Michael Scott\n"
-    },
-    {
-      "hash": "d7ae16e28b9c97e21f08df3947088802f22e41ea",
+      "hash": "4ff6e3a01cd04f70597675a78333f8e8b1a4c1e1",
       "type": "commit",
-      "size": 277,
+      "size": 276,
       "references": [
-        "db13cba3814c1b6a149b752ef8af1d1a2ede458c",
-        "58c4a8d0bb9908198342c691c5410f5d6e34019e"
+        "ac4be9cfaf1ad2f5e6f1a1f1c55c1f4e721fa48e",
+        "53aa323822070f2e25c4f3b7f774fb38ba1bd7c7"
       ],
-      "referencedBy": [],
+      "referencedBy": [
+        "82656791093b5e3039bdcf4bf100b9eb4b0788b0"
+      ],
       "parent": [
-        "58c4a8d0bb9908198342c691c5410f5d6e34019e"
+        "53aa323822070f2e25c4f3b7f774fb38ba1bd7c7"
       ],
-      "timestamp": 1752308616000,
-      "tree": "db13cba3814c1b6a149b752ef8af1d1a2ede458c",
+      "timestamp": 1775568371000,
+      "tree": "ac4be9cfaf1ad2f5e6f1a1f1c55c1f4e721fa48e",
       "author": "damithc <1673303+damithc@users.noreply.github.com>",
       "committer": "damithc <1673303+damithc@users.noreply.github.com>",
-      "message": "Add Michael to employees.txt",
+      "message": "Add colours.txt, shapes.txt",
+      "diff": [
+        {
+          "status": "A",
+          "path": "colours.txt",
+          "hash": "55c844904605097d995e1492c8518e6725f07223",
+          "content": "diff --git a/colours.txt b/colours.txt\nnew file mode 100644\nindex 0000000..55c8449\n--- /dev/null\n+++ b/colours.txt\n@@ -0,0 +1 @@\n+a file for colours\n"
+        },
+        {
+          "status": "A",
+          "path": "shapes.txt",
+          "hash": "5c2644bc9419190c4a0ae6d1f19155e75df82a39",
+          "content": "diff --git a/shapes.txt b/shapes.txt\nnew file mode 100644\nindex 0000000..5c2644b\n--- /dev/null\n+++ b/shapes.txt\n@@ -0,0 +1 @@\n+a file for shapes\n"
+        }
+      ]
+    },
+    {
+      "hash": "53aa323822070f2e25c4f3b7f774fb38ba1bd7c7",
+      "type": "commit",
+      "size": 290,
+      "references": [
+        "a1751882b75722cce7e5af382e0ed20f277b5992",
+        "fda3329b4ce94d774f3e3069ce4e9ea0d540e0c6"
+      ],
+      "referencedBy": [
+        "4ff6e3a01cd04f70597675a78333f8e8b1a4c1e1"
+      ],
+      "parent": [
+        "fda3329b4ce94d774f3e3069ce4e9ea0d540e0c6"
+      ],
+      "timestamp": 1775568371000,
+      "tree": "a1751882b75722cce7e5af382e0ed20f277b5992",
+      "author": "damithc <1673303+damithc@users.noreply.github.com>",
+      "committer": "damithc <1673303+damithc@users.noreply.github.com>",
+      "message": "Add elderberries and figs into fruits.txt",
       "diff": [
         {
           "status": "M",
-          "path": "employees.txt",
-          "hash": "946b23358cfa60bc9b3fe66e4cc3d271c69bab26",
-          "content": "diff --git a/employees.txt b/employees.txt\nindex dc67346..946b233 100644\n--- a/employees.txt\n+++ b/employees.txt\n@@ -1,0 +2 @@ Employees\n+Manager: Michael Scott\n"
+          "path": "fruits.txt",
+          "hash": "7d0a594cace59997270f2e9c05fc2f4a98c23c3b",
+          "content": "diff --git a/fruits.txt b/fruits.txt\nindex 5e64f9d..7d0a594 100644\n--- a/fruits.txt\n+++ b/fruits.txt\n@@ -4,0 +5,2 @@ dragon fruits\n+elderberries\n+figs\n"
         }
       ]
     },
     {
-      "hash": "f1e3d5acee9aae39b3495c3912b82a67b34c525e",
-      "type": "commit",
-      "size": 262,
+      "hash": "55c844904605097d995e1492c8518e6725f07223",
+      "type": "blob",
+      "size": 19,
+      "references": [],
+      "referencedBy": [
+        "6becb5ba841347ce286032e4a140de0ccacf61b7",
+        "ac4be9cfaf1ad2f5e6f1a1f1c55c1f4e721fa48e"
+      ],
+      "names": [
+        "colours.txt"
+      ],
+      "content": "a file for colours\n"
+    },
+    {
+      "hash": "567f4bf5cf0bb22431b89dda859b145599f2afca",
+      "type": "tree",
+      "size": 38,
       "references": [
-        "845b0e4b2c982a39505a61ffbaa3d398811f30bb",
-        "58c4a8d0bb9908198342c691c5410f5d6e34019e"
+        "5e64f9d814e0d48b834d492e6bf6fe331020cb9e"
+      ],
+      "referencedBy": [
+        "fda3329b4ce94d774f3e3069ce4e9ea0d540e0c6"
+      ],
+      "names": [
+        "things"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "name": "fruits.txt",
+          "hash": "5e64f9d814e0d48b834d492e6bf6fe331020cb9e",
+          "type": "blob"
+        }
+      ]
+    },
+    {
+      "hash": "5c2644bc9419190c4a0ae6d1f19155e75df82a39",
+      "type": "blob",
+      "size": 18,
+      "references": [],
+      "referencedBy": [
+        "6becb5ba841347ce286032e4a140de0ccacf61b7",
+        "ac4be9cfaf1ad2f5e6f1a1f1c55c1f4e721fa48e"
+      ],
+      "names": [
+        "shapes.txt"
+      ],
+      "content": "a file for shapes\n"
+    },
+    {
+      "hash": "5e64f9d814e0d48b834d492e6bf6fe331020cb9e",
+      "type": "blob",
+      "size": 38,
+      "references": [],
+      "referencedBy": [
+        "567f4bf5cf0bb22431b89dda859b145599f2afca"
+      ],
+      "names": [
+        "fruits.txt"
+      ],
+      "content": "apples\nbananas\ncherries\ndragon fruits\n"
+    },
+    {
+      "hash": "6becb5ba841347ce286032e4a140de0ccacf61b7",
+      "type": "tree",
+      "size": 115,
+      "references": [
+        "55c844904605097d995e1492c8518e6725f07223",
+        "6d502c39f4a6bd00960e74029e50fd779a852d64",
+        "5c2644bc9419190c4a0ae6d1f19155e75df82a39"
+      ],
+      "referencedBy": [
+        "82656791093b5e3039bdcf4bf100b9eb4b0788b0"
+      ],
+      "names": [
+        "things"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "name": "colours.txt",
+          "hash": "55c844904605097d995e1492c8518e6725f07223",
+          "type": "blob"
+        },
+        {
+          "mode": "100644",
+          "name": "fruits.txt",
+          "hash": "6d502c39f4a6bd00960e74029e50fd779a852d64",
+          "type": "blob"
+        },
+        {
+          "mode": "100644",
+          "name": "shapes.txt",
+          "hash": "5c2644bc9419190c4a0ae6d1f19155e75df82a39",
+          "type": "blob"
+        }
+      ]
+    },
+    {
+      "hash": "6d502c39f4a6bd00960e74029e50fd779a852d64",
+      "type": "blob",
+      "size": 65,
+      "references": [],
+      "referencedBy": [
+        "6becb5ba841347ce286032e4a140de0ccacf61b7"
+      ],
+      "names": [
+        "fruits.txt"
+      ],
+      "content": "apples, apricots\nbananas\nblueberries\ncherries\ndragon fruits\nfigs\n"
+    },
+    {
+      "hash": "7d0a594cace59997270f2e9c05fc2f4a98c23c3b",
+      "type": "blob",
+      "size": 56,
+      "references": [],
+      "referencedBy": [
+        "a1751882b75722cce7e5af382e0ed20f277b5992",
+        "ac4be9cfaf1ad2f5e6f1a1f1c55c1f4e721fa48e"
+      ],
+      "names": [
+        "fruits.txt"
+      ],
+      "content": "apples\nbananas\ncherries\ndragon fruits\nelderberries\nfigs\n"
+    },
+    {
+      "hash": "82656791093b5e3039bdcf4bf100b9eb4b0788b0",
+      "type": "commit",
+      "size": 267,
+      "references": [
+        "6becb5ba841347ce286032e4a140de0ccacf61b7",
+        "4ff6e3a01cd04f70597675a78333f8e8b1a4c1e1"
       ],
       "referencedBy": [],
       "parent": [
-        "58c4a8d0bb9908198342c691c5410f5d6e34019e"
+        "4ff6e3a01cd04f70597675a78333f8e8b1a4c1e1"
       ],
-      "timestamp": 1752308616000,
-      "tree": "845b0e4b2c982a39505a61ffbaa3d398811f30bb",
+      "timestamp": 1775568371000,
+      "tree": "6becb5ba841347ce286032e4a140de0ccacf61b7",
       "author": "damithc <1673303+damithc@users.noreply.github.com>",
       "committer": "damithc <1673303+damithc@users.noreply.github.com>",
-      "message": "Add sales.txt",
+      "message": "Update fruits list",
       "diff": [
         {
-          "status": "A",
-          "path": "sales.txt",
-          "hash": "a50fca13c281f32b55a33286b7c3dceb76508057",
-          "content": "diff --git a/sales.txt b/sales.txt\nnew file mode 100644\nindex 0000000..a50fca1\n--- /dev/null\n+++ b/sales.txt\n@@ -0,0 +1 @@\n+Sales\n"
+          "status": "M",
+          "path": "fruits.txt",
+          "hash": "6d502c39f4a6bd00960e74029e50fd779a852d64",
+          "content": "diff --git a/fruits.txt b/fruits.txt\nindex 7d0a594..6d502c3 100644\n--- a/fruits.txt\n+++ b/fruits.txt\n@@ -1 +1 @@\n-apples\n+apples, apricots\n@@ -2,0 +3 @@ bananas\n+blueberries\n@@ -5 +5,0 @@ dragon fruits\n-elderberries\n"
         }
       ]
     },
     {
-      "hash": "a50fca13c281f32b55a33286b7c3dceb76508057",
-      "type": "blob",
-      "size": 6,
-      "references": [],
+      "hash": "a1751882b75722cce7e5af382e0ed20f277b5992",
+      "type": "tree",
+      "size": 38,
+      "references": [
+        "7d0a594cace59997270f2e9c05fc2f4a98c23c3b"
+      ],
       "referencedBy": [
-        "845b0e4b2c982a39505a61ffbaa3d398811f30bb"
+        "53aa323822070f2e25c4f3b7f774fb38ba1bd7c7"
       ],
       "names": [
-        "sales.txt"
+        "things"
       ],
-      "content": "Sales\n"
-    },
-    {
-      "hash": "58c4a8d0bb9908198342c691c5410f5d6e34019e",
-      "type": "commit",
-      "size": 264,
-      "references": [
-        "41f8c8a3af3d1043af754b029cf895ffc76ee641",
-        "b8b900ec2e2113cec4f08e5f62cbeacf030377ab"
-      ],
-      "referencedBy": [
-        "d7ae16e28b9c97e21f08df3947088802f22e41ea",
-        "f1e3d5acee9aae39b3495c3912b82a67b34c525e"
-      ],
-      "parent": [
-        "b8b900ec2e2113cec4f08e5f62cbeacf030377ab"
-      ],
-      "timestamp": 1752308616000,
-      "tree": "41f8c8a3af3d1043af754b029cf895ffc76ee641",
-      "author": "damithc <1673303+damithc@users.noreply.github.com>",
-      "committer": "damithc <1673303+damithc@users.noreply.github.com>",
-      "message": "Add vendors.txt",
-      "diff": [
+      "entries": [
         {
-          "status": "A",
-          "path": "vendors.txt",
-          "hash": "c7d7e22b21169d018d1c2a0f2b0db0e5419c7921",
-          "content": "diff --git a/vendors.txt b/vendors.txt\nnew file mode 100644\nindex 0000000..c7d7e22\n--- /dev/null\n+++ b/vendors.txt\n@@ -0,0 +1 @@\n+Vendors\n"
+          "mode": "100644",
+          "name": "fruits.txt",
+          "hash": "7d0a594cace59997270f2e9c05fc2f4a98c23c3b",
+          "type": "blob"
         }
       ]
     },
     {
-      "hash": "b8b900ec2e2113cec4f08e5f62cbeacf030377ab",
-      "type": "commit",
-      "size": 218,
+      "hash": "ac4be9cfaf1ad2f5e6f1a1f1c55c1f4e721fa48e",
+      "type": "tree",
+      "size": 115,
       "references": [
-        "7ca0478a5387da0f3e412c4e6fa8e70b1ea1b6c7"
+        "55c844904605097d995e1492c8518e6725f07223",
+        "7d0a594cace59997270f2e9c05fc2f4a98c23c3b",
+        "5c2644bc9419190c4a0ae6d1f19155e75df82a39"
       ],
       "referencedBy": [
-        "58c4a8d0bb9908198342c691c5410f5d6e34019e"
+        "4ff6e3a01cd04f70597675a78333f8e8b1a4c1e1"
+      ],
+      "names": [
+        "things"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "name": "colours.txt",
+          "hash": "55c844904605097d995e1492c8518e6725f07223",
+          "type": "blob"
+        },
+        {
+          "mode": "100644",
+          "name": "fruits.txt",
+          "hash": "7d0a594cace59997270f2e9c05fc2f4a98c23c3b",
+          "type": "blob"
+        },
+        {
+          "mode": "100644",
+          "name": "shapes.txt",
+          "hash": "5c2644bc9419190c4a0ae6d1f19155e75df82a39",
+          "type": "blob"
+        }
+      ]
+    },
+    {
+      "hash": "fda3329b4ce94d774f3e3069ce4e9ea0d540e0c6",
+      "type": "commit",
+      "size": 215,
+      "references": [
+        "567f4bf5cf0bb22431b89dda859b145599f2afca"
+      ],
+      "referencedBy": [
+        "53aa323822070f2e25c4f3b7f774fb38ba1bd7c7"
       ],
       "parent": [],
-      "timestamp": 1752308616000,
-      "tree": "7ca0478a5387da0f3e412c4e6fa8e70b1ea1b6c7",
+      "timestamp": 1775568371000,
+      "tree": "567f4bf5cf0bb22431b89dda859b145599f2afca",
       "author": "damithc <1673303+damithc@users.noreply.github.com>",
       "committer": "damithc <1673303+damithc@users.noreply.github.com>",
-      "message": "Add employees.txt",
+      "message": "Add fruits.txt",
       "diff": [
         {
           "status": "A",
-          "path": "employees.txt",
-          "hash": "dc67346ce04014db214da3e1b73098d3057fbe26",
-          "content": "diff --git a/employees.txt b/employees.txt\nnew file mode 100644\nindex 0000000..dc67346\n--- /dev/null\n+++ b/employees.txt\n@@ -0,0 +1 @@\n+Employees\n"
-        }
-      ]
-    },
-    {
-      "hash": "c7d7e22b21169d018d1c2a0f2b0db0e5419c7921",
-      "type": "blob",
-      "size": 8,
-      "references": [],
-      "referencedBy": [
-        "845b0e4b2c982a39505a61ffbaa3d398811f30bb",
-        "db13cba3814c1b6a149b752ef8af1d1a2ede458c",
-        "41f8c8a3af3d1043af754b029cf895ffc76ee641"
-      ],
-      "names": [
-        "vendors.txt"
-      ],
-      "content": "Vendors\n"
-    },
-    {
-      "hash": "dc67346ce04014db214da3e1b73098d3057fbe26",
-      "type": "blob",
-      "size": 10,
-      "references": [],
-      "referencedBy": [
-        "7ca0478a5387da0f3e412c4e6fa8e70b1ea1b6c7",
-        "845b0e4b2c982a39505a61ffbaa3d398811f30bb",
-        "41f8c8a3af3d1043af754b029cf895ffc76ee641"
-      ],
-      "names": [
-        "employees.txt"
-      ],
-      "content": "Employees\n"
-    },
-    {
-      "hash": "7ca0478a5387da0f3e412c4e6fa8e70b1ea1b6c7",
-      "type": "tree",
-      "size": 41,
-      "references": [
-        "dc67346ce04014db214da3e1b73098d3057fbe26"
-      ],
-      "referencedBy": [
-        "b8b900ec2e2113cec4f08e5f62cbeacf030377ab"
-      ],
-      "names": [
-        "samplerepo-company"
-      ],
-      "entries": [
-        {
-          "mode": "100644",
-          "name": "employees.txt",
-          "hash": "dc67346ce04014db214da3e1b73098d3057fbe26",
-          "type": "blob"
-        }
-      ]
-    },
-    {
-      "hash": "845b0e4b2c982a39505a61ffbaa3d398811f30bb",
-      "type": "tree",
-      "size": 117,
-      "references": [
-        "dc67346ce04014db214da3e1b73098d3057fbe26",
-        "a50fca13c281f32b55a33286b7c3dceb76508057",
-        "c7d7e22b21169d018d1c2a0f2b0db0e5419c7921"
-      ],
-      "referencedBy": [
-        "f1e3d5acee9aae39b3495c3912b82a67b34c525e"
-      ],
-      "names": [
-        "samplerepo-company"
-      ],
-      "entries": [
-        {
-          "mode": "100644",
-          "name": "employees.txt",
-          "hash": "dc67346ce04014db214da3e1b73098d3057fbe26",
-          "type": "blob"
-        },
-        {
-          "mode": "100644",
-          "name": "sales.txt",
-          "hash": "a50fca13c281f32b55a33286b7c3dceb76508057",
-          "type": "blob"
-        },
-        {
-          "mode": "100644",
-          "name": "vendors.txt",
-          "hash": "c7d7e22b21169d018d1c2a0f2b0db0e5419c7921",
-          "type": "blob"
-        }
-      ]
-    },
-    {
-      "hash": "db13cba3814c1b6a149b752ef8af1d1a2ede458c",
-      "type": "tree",
-      "size": 80,
-      "references": [
-        "946b23358cfa60bc9b3fe66e4cc3d271c69bab26",
-        "c7d7e22b21169d018d1c2a0f2b0db0e5419c7921"
-      ],
-      "referencedBy": [
-        "d7ae16e28b9c97e21f08df3947088802f22e41ea"
-      ],
-      "names": [
-        "samplerepo-company"
-      ],
-      "entries": [
-        {
-          "mode": "100644",
-          "name": "employees.txt",
-          "hash": "946b23358cfa60bc9b3fe66e4cc3d271c69bab26",
-          "type": "blob"
-        },
-        {
-          "mode": "100644",
-          "name": "vendors.txt",
-          "hash": "c7d7e22b21169d018d1c2a0f2b0db0e5419c7921",
-          "type": "blob"
-        }
-      ]
-    },
-    {
-      "hash": "41f8c8a3af3d1043af754b029cf895ffc76ee641",
-      "type": "tree",
-      "size": 80,
-      "references": [
-        "dc67346ce04014db214da3e1b73098d3057fbe26",
-        "c7d7e22b21169d018d1c2a0f2b0db0e5419c7921"
-      ],
-      "referencedBy": [
-        "58c4a8d0bb9908198342c691c5410f5d6e34019e"
-      ],
-      "names": [
-        "samplerepo-company"
-      ],
-      "entries": [
-        {
-          "mode": "100644",
-          "name": "employees.txt",
-          "hash": "dc67346ce04014db214da3e1b73098d3057fbe26",
-          "type": "blob"
-        },
-        {
-          "mode": "100644",
-          "name": "vendors.txt",
-          "hash": "c7d7e22b21169d018d1c2a0f2b0db0e5419c7921",
-          "type": "blob"
+          "path": "fruits.txt",
+          "hash": "5e64f9d814e0d48b834d492e6bf6fe331020cb9e",
+          "content": "diff --git a/fruits.txt b/fruits.txt\nnew file mode 100644\nindex 0000000..5e64f9d\n--- /dev/null\n+++ b/fruits.txt\n@@ -0,0 +1,4 @@\n+apples\n+bananas\n+cherries\n+dragon fruits\n"
         }
       ]
     }
